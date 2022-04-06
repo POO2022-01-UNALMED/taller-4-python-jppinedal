@@ -33,14 +33,12 @@ class Grupo:
         return salida
 
     @ classmethod
-    
-
     def asignarNombre(*args):
 
       for arg in args:
         if arg == "Grado 1":
           Grupo.grado="Grado 1"
-          
+
         else:
           Grupo.grado="Grado 6"
     
